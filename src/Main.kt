@@ -6,10 +6,15 @@ import practica1.rainbow
 import Practica2.comerpeces
 import Practica2.lista
 import practica3.*
-
+import practica4.adstracspice
+import practica4.libreria
+import practica4.spice
+import practica4.spicediferent
+import  Spices.Comida3
+import practica5.Book5
 
 fun main() {
-    val seleccion = 12
+    val seleccion = 18
     dayOfWeek()
     when (seleccion) {
         1 -> acuario()
@@ -26,6 +31,14 @@ fun main() {
         10 -> emociones2()
         11 -> lambda()
         12-> lambda2()
+        //practica 4
+        13 -> spice()
+        14 -> spicediferent()
+        15 -> libreria()
+        16 -> adstracspice()
+        17 -> Comida3()
+        18 -> Book5()
+
 
         else -> println("Selección inválida")
     }
