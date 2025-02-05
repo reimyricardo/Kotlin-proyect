@@ -11,10 +11,13 @@ import practica4.libreria
 import practica4.spice
 import practica4.spicediferent
 import  Spices.Comida3
-import practica5.Book5
+import building.pajaroloco
+import practica5.Bobconstruye
+import practica5.book5
+
 
 fun main() {
-    val seleccion = 18
+    val seleccion = 19
     dayOfWeek()
     when (seleccion) {
         1 -> acuario()
@@ -37,9 +40,10 @@ fun main() {
         15 -> libreria()
         16 -> adstracspice()
         17 -> Comida3()
-        18 -> Book5()
-
-
+        //Practica 5
+        18 -> book5()
+        19 -> Bobconstruye()
+        20 -> pajaroloco()
         else -> println("Selección inválida")
     }
 }
